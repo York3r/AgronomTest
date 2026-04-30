@@ -8,11 +8,11 @@
 UENUM(BlueprintType)
 enum class EPlantStages : uint8
 {
-    Empty,
-    Seed,
-    Growing,
-    ReadyToHarvest,
-    Dead
+    Empty, // White box
+    Seed, // Blue box
+    Growing, // Yellow box
+    ReadyToHarvest, // Green box
+    Dead // Black box
 };
 
 
